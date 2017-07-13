@@ -4,6 +4,7 @@ import configureStore from './store/store';
 import Root from './components/root';
 
 
+
 document.addEventListener('DOMContentLoaded',() => {
   const rootEl = document.getElementById('root');
   const store = configureStore();
